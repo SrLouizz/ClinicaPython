@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 from flask import Flask, render_template, request, redirect
 
 app = Flask(__name__)
@@ -42,3 +43,8 @@ def cancelar_consulta(codigo):
 
 if __name__ == '__main__':
     app.run(debug=True)
+=======
+from flask import Flask
+
+app = __Flask__
+>>>>>>> Stashed changes
